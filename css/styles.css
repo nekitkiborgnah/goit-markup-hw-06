@@ -409,7 +409,7 @@ transform: translate(0);
 }
 .modal {
     width: 408px;
-    height: 515px;
+    height: 584px;
     background-color: #FFFFFF;
     border-radius: 4px;
     position: absolute;
@@ -488,6 +488,12 @@ transition: 0.7s;
     box-sizing: border-box;
     margin: 0 auto;
     display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
 }
 .modal-access {
     width: 16px;
@@ -523,4 +529,52 @@ transition: 0.7s;
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 24px;
+}
+.modal-input-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+.modal-input-phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+.modal-input-email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+.modal-input-comment {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+    margin-bottom: 4px;
+}
+.modal-comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    padding-left: 16px;
 }
