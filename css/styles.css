@@ -485,6 +485,8 @@ transition: 0.7s;
 }
 .modal-icon {
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .modal-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
