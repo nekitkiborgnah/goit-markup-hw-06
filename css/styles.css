@@ -471,14 +471,20 @@ transition: 0.7s;
     margin-top: 70px;
     margin-bottom: 16px;
 }
+.modal-wrap {
+    position: relative;
+}
 .modal-input {
     width: 360px;
     height: 40px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     display: block;
     margin: 0 auto;
     margin-bottom: 8px;
+    border: 1px solid gray;
+}
+.modal-icon {
+    position: absolute;
 }
 .modal-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -577,4 +583,10 @@ transition: 0.7s;
 .modal-comment::placeholder {
     color: rgba(46, 47, 66, 0.4);
     padding-left: 16px;
+}
+.modal-input:focus {
+    outline-color: #4D5AE5;
+}
+.modal-comment:focus {
+    outline-color: #4D5AE5;
 }
