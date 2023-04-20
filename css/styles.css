@@ -486,7 +486,23 @@ transition: 0.7s;
 .modal-icon {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    right: 210px;
+}
+.modal-wrap2 {
+    position: relative;
+}
+.modal-icon2 {
+    position: absolute;
+    top: 50%;
+    left: 38px;
+}
+.modal-wrap3 {
+    position: relative;
+}
+.modal-icon3 {
+    position: absolute;
+    top: 50%;
+    left: 38px;
 }
 .modal-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -537,6 +553,7 @@ transition: 0.7s;
     color: #FFFFFF;
     margin: 0 auto;
     margin-top: 24px;
+    cursor: pointer;
 }
 .modal-input-name {
     font-family: 'Roboto';
@@ -591,4 +608,22 @@ transition: 0.7s;
 }
 .modal-comment:focus {
     outline-color: #4D5AE5;
+}
+.joskiy-wrap {
+    position: relative;
+}
+.prikol {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    position: absolute;
+    top: 50%;
+    right: 45px;
+}
+.modal-link {
+    color: #4D5AE5;
 }
