@@ -679,3 +679,9 @@ transition: 0.7s;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
+.modal-icon-link:hover {
+    fill: #404BBF;
+}
+.modal-icon-close {
+    color: currentColor;
+}
