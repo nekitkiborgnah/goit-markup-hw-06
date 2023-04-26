@@ -425,9 +425,9 @@ transform: translate(0);
     position: absolute;
     top: 20px;
     right: 20px;
-    border: none;
     background-color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 .is-hidden {
     opacity: 0;
@@ -481,7 +481,8 @@ transition: 0.7s;
     display: block;
     margin: 0 auto;
     margin-bottom: 8px;
-    border: 1px solid gray;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    padding-left: 35px;
 }
 .modal-icon {
     position: absolute;
@@ -518,6 +519,8 @@ transition: 0.7s;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
+    resize: none;
+    padding-top: 8px;
 }
 .modal-access {
     width: 16px;
@@ -526,6 +529,7 @@ transition: 0.7s;
     border-radius: 2px;
     margin-left: 24px;
     margin-top: 16px;
+    cursor: pointer;
 }
 .modal-send {
     padding: 16px 32px;
@@ -623,6 +627,7 @@ transition: 0.7s;
     position: absolute;
     top: 50%;
     right: 45px;
+    cursor: pointer;
 }
 .modal-link {
     color: #4D5AE5;
@@ -646,6 +651,7 @@ transition: 0.7s;
     margin-top: 16px;
     background: #2E2F42;
     padding-left: 16px;
+    color: white;
 }
 .footer-input::placeholder {
     font-family: 'Roboto';
@@ -678,10 +684,29 @@ transition: 0.7s;
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    margin-left: 24px;
+    width: 165px;
+    height: 40px;
+    margin-top: 15px;
 }
 .modal-icon-link:hover {
     fill: #404BBF;
 }
 .modal-icon-close {
-    color: currentColor;
+    fill: currentColor;
+}
+.footer-last-div {
+    display: flex;
+}
+.modal-icon-link {
+    color: #E7E9FC;
+}
+.modal-input:focus + .modal-icon {
+    fill: #4D5AE5;
+}
+.modal-input:focus + .modal-icon2 {
+    fill: #4D5AE5;
+}
+.modal-input:focus + .modal-icon3 {
+    fill: #4D5AE5;
 }

@@ -229,10 +229,12 @@
             </ul></div>
             <form class="footer-form">
             <p class="footer-last-p">Subscribe</p>
+            <div class="footer-last-div">
             <input type="text" name="user-email" class="footer-input" placeholder="E-mail">
             <button class="footer-last-button">Subscribe<svg class="footer-last-icon" width="24px" height="24px">
                 <use href="./images/icons.svg#icon-Frame-3"></use>
-            </svg></button> 
+            </svg></button>
+            </div> 
             </form> 
         </div>
     </footer>
@@ -265,10 +267,10 @@
                 </svg>
                 </div>
                 <p class="modal-input-comment">Comment</p>
-                <input type="text" name="user-comment" class="modal-comment" placeholder="Text input">
+                <textarea name="user-text" id="user-text" class="modal-comment" placeholder="Text input" ></textarea>
                 <div class="joskiy-wrap">
-                <input type="text" class="modal-access" readonly>
-                <p class="prikol">I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a></p>
+                <input type="checkbox" id="checkbox" name="checkbox" class="modal-access" readonly>
+                <label for="checkbox" class="prikol">I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a></label>
                 </div>
                 <button type="submit" class="modal-send">Send</button>
             </form>
