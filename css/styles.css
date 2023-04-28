@@ -374,7 +374,7 @@ body {
     display: flex;
 }
 .footer-first-div {
-    padding-right: 120px;
+    padding-right: 95px;
 }
 .hackers-cover-li {
     position: relative;
@@ -718,14 +718,21 @@ transition: 0.7s;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
+    display: inline-block;
+  position: relative;
+  vertical-align: middle;
 }
 .modal-access:checked + .prikol::before{
     background-image: url(../images/Vector.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
-.modal-access {
-    position: absolute;
-  opacity: 0;
-  pointer-events: none;
+.modal-icon-close:hover .icon-close-path {
+    fill: red;
 }
+#checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
